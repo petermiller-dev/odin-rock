@@ -1,19 +1,4 @@
-@font-face {
-    font-family: 'Post';
-    src: url('assets/fonts/PostRegular.woff2') format('woff2'),
-        url('assets/fonts/PostRegular.woff') format('woff'),
-        url('assets/fonts/Post.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
-/* 
-   !CSS Reset
-   http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 * {
     box-sizing: border-box;
@@ -39,13 +24,13 @@ section {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
 
 a {
     text-decoration: none;
-    color: rgb(30, 30, 30);
+    color: rgb(135, 16, 16);
 }
 
 footer,
@@ -64,12 +49,20 @@ body {
     line-height: 1;
 }
 
+h1{
+    color: #ff0000;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Cabin', sans-serif;
+}
+
 body>section {
     height: 50%;
 }
 
 body>section:nth-of-type(1) {
-    background-color: rgb(30, 30, 30);
+    background-color: #5138f2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,50 +73,6 @@ body>section:nth-of-type(1) h1 {
     justify-content: center;
     font-family: 'Post';
     font-size: 5.5rem;
-}
-
-body>section h1>span:nth-of-type(1) {
-    color: #3b64d9;
-}
-
-body>section h1>span:nth-of-type(2) {
-    color: #e46892;
-}
-
-body>section h1>span:nth-of-type(3) {
-    color: #f0ac0f;
-}
-
-body>section h1>span:nth-of-type(4) {
-    color: #e44535;
-}
-
-body>section h1>span:nth-of-type(5) {
-    color: #6eb179;
-}
-
-body>section h1>span#whitespace {
-    width: 1rem;
-}
-
-body>section h1>span:nth-of-type(7) {
-    color: #4399dd;
-}
-
-body>section h1>span:nth-of-type(8) {
-    color: #f06b0b;
-}
-
-body>section h1>span:nth-of-type(9) {
-    color: #f0ac0f;
-}
-
-body>section h1>span:nth-of-type(10) {
-    color: #3b64d9;
-}
-
-body>section h1>span:nth-of-type(11) {
-    color: #e44535;
 }
 
 
@@ -137,7 +86,7 @@ body>div {
     flex-direction: column;
     font-family: 'Cabin', sans-serif;
     text-align: center;
-    color: #6eb179;
+    color: #6999ff;
 }
 
 body>div>div>h2 {
